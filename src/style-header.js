@@ -294,7 +294,7 @@ export const styleHeader = (config, ch, haElem = ha_elements()) => {
             }
           } else {
             if (buttonElem.shadowRoot.querySelector('mwc-icon-button')) {
-              buttonElem.shadowRoot.querySelector('.buttonText').style.margin = '12px 0px 0px 0px';
+              buttonElem.shadowRoot.querySelector('.buttonText').style.margin = '0px 0px 0px 0px';
             } else {
               buttonElem.shadowRoot.querySelector('.buttonText').style.margin = '5.5px 0px 0px 0px';
             }
